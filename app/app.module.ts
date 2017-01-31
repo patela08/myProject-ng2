@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import {AppComponent}  from './app.component';
+import { HeroDetailComponent } from './hero-detail.component';
 import {ChildBody} from "./app.childbody";
 import {ChildMessage} from "./app.childmessage";
 
@@ -13,6 +14,7 @@ import {ChildMessage} from "./app.childmessage";
   ],
   declarations: [
     AppComponent,
+    HeroDetailComponent,
     ChildBody,
     ChildMessage
   ],
